@@ -7,6 +7,10 @@ a:hover {
   text-decoration: underline;
 }
 
+body, h1, p, div, div.pure-g [class*="pure-u"] {
+  font-family: Baskerville, Hoefler, Georgia, serif;
+}
+
 p {
   margin: 0;
   padding: 0;
@@ -15,9 +19,20 @@ p {
 
 h1 {
   padding: 0;
+  margin-top: 0.4em;
   font-size: 3.25em;
-  font-weight: 300;
+  font-weight: lighter;
   font-variant: small-caps;
+  line-height: 0.75em;
+}
+
+h2 {
+  letter-spacing: 0.05em;
+  font-size: 1.75em;
+  text-align: center;
+  font-weight: normal;
+  margin-top: 1.5em;
+  margin-bottom: 1.0em;
 }
 
 div.content {
@@ -30,15 +45,16 @@ div.content {
 }
 
 div.content .entry {
-  margin-bottom: 1em;
+  margin-top: 1.5em;
+  font-size: 1.1em;
 }
 
 div.header {
 }
 
-div.header .contact {
-  margin-top: 0.5em;
-  text-align: right;
+div.contact {
+  margin-top: 2.5em;
+  text-align: center;
 }
 
 
@@ -46,13 +62,22 @@ div.pure-g {
 }
 
 .experience .from-to {
+  margin-top: 0.5em;
   text-align: right;
-  background-color: #eeeeff;
 }
 
 .experience .position {
-  background-color: #eeeeff;
+  border-bottom: 1px solid #ababab;
+  font-weight: bold;
 }
 
 .experience .company {
+  margin-top: 0.5em;
+  font-style: italic;
+  letter-spacing: 0.05em;
+}
+
+.experience .technologies {
+  margin-top: 0.25em;
+  line-height: 1.25em;
 }
