@@ -8,7 +8,7 @@ a:hover {
 }
 
 body, h1, p, div, div.pure-g [class*="pure-u"] {
-  font-family: Baskerville, Hoefler, Georgia, serif;
+  font-family: Baskerville, Hoefler, Georgia, "URW Palladio L", serif;
 }
 
 p {
